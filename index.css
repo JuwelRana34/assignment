@@ -462,11 +462,89 @@ footer{
 display: flex;
 flex-direction: column;
     }
-    /* exparince */
+
     .exparince{
         display: flex;
         flex-direction: column;
+        padding: 5rem 1rem;
+        margin: 0 10px;
     }
 
+    .my-portfoli{
+        padding: 1rem 0;
+    }
+    .hero-texts {
+        color: var(--text);
+        padding: 10px 33px;
+    }
+    .hero-texts {
+        width: 80%;
+    }
+    .award {
+       
+        padding: 5rem 1rem;
+       
+    }
+    .my-portfolio {
+        
+        padding: 1rem 1rem;
+    }
+    .portfolio-img1 {
+        height: auto;
+        left: 28px;
+        width: 213px;
+    }
+
+    .portfolio-left {
+        width: 90%;
+        height: 350px;
+        padding: 1rem 1rem;
+        
+    }
+    .contact-box textarea {
+        
+        height: 2rem;
+        width: 175px;
+        padding: 0 2rem;
+
+    }
+    .contact-box i {
+        
+        display: none;
+
+    }
+    .contact-box input {
+        margin: 1rem 0 ;
+
+    }
+    .file {
+        padding: 1rem 1rem ;
+        width: 200px;
+    }
+    .contact-box {
+       
+        margin: 2rem 1rem;
+        
+    }
+    .portfolio-img2 {
+       
+        width: 260px;
+        top: 135px;
+        z-index: 999;
+        
+    }
+    .portfolio-right {
+        padding: 1rem 4rem;
+        
+    }
+    .list-items button {
+        
+        padding: 10px 10px;
+    }
+    .exparince-right div div {
+        
+        gap: 8rem;
+       
+    }
 
   }
