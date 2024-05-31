@@ -88,6 +88,11 @@ main{
     color: var(--text);
     
 }
+.hero-button i{
+    
+    color: var(--text);
+    
+}
 .portfoliobtn{
     background-color: var(--button);
     border-radius: 50px;
@@ -425,3 +430,43 @@ footer{
 
 /* ******************************** */
 
+@media only screen and (max-width: 600px) {
+    /* headr  */
+    .list-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-texts{
+        width: 100%;
+        
+    }
+    .hero-image img{
+       width: 365px;
+    }
+    .hero-button{
+        width: 100%;
+    }
+    .about{
+display: flex;
+flex-direction: column;
+    }
+    /* exparince */
+    .exparince{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+  }
